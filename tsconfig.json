@@ -1,0 +1,76 @@
+{
+    "$schema": "http://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        // "incremental": true,
+        // "tsBuildInfoFile": "./.tsbuildinfo",
+
+        "target": "es2022",
+        // "lib": ["es2022"],
+        "lib": ["es2022", "dom", "dom.iterable"],
+        // "jsx": "preserve",
+        // "jsx": "react-jsx",
+        // "experimentalDecorators": true,
+        // "emitDecoratorMetadata": true,
+
+        "rootDir": "./src",
+        // "outDir": "./",
+        // "declarationDir": "./",
+
+        "module": "commonjs",
+        "moduleResolution": "node",
+        // "module": "es2022",
+        // "moduleResolution": "bundler",
+
+        // "baseUrl": "./",
+        // "paths": {},
+        // "allowImportingTsExtensions": true,
+        // "resolvePackageJsonExports": true,
+        // "resolvePackageJsonImports": true,
+        // "customConditions": [],
+        // "resolveJsonModule": true,
+        // "allowArbitraryExtensions": true,
+        // "noResolve": true,
+
+        // "allowJs": true,
+        // "checkJs": true,
+        // "maxNodeModuleJsDepth": 1,
+
+        // "declaration": true,
+        // "declarationMap": true,
+        // "emitDeclarationOnly": true,
+        // "sourceMap": true,
+        // "inlineSourceMap": true,
+        // "removeComments": true,
+        "noEmit": true,
+
+        // "isolatedModules": true,
+        // "verbatimModuleSyntax": true,
+        // "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        // "preserveSymlinks": true,
+        "forceConsistentCasingInFileNames": true,
+
+        "strict": true,
+        // "noImplicitAny": true,
+        // "strictNullChecks": true,
+        // "strictFunctionTypes": true,
+        // "strictBindCallApply": true,
+        // "strictPropertyInitialization": true,
+        // "noImplicitThis": true,
+        // "useUnknownInCatchVariables": true,
+        // "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+        // "allowUnusedLabels": true,
+        // "allowUnreachableCode": true,
+
+        // "skipDefaultLibCheck": true,
+        "skipLibCheck": true
+    }
+}
